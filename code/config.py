@@ -454,3 +454,22 @@ P8_MIN_EVENTS_PER_PARAMETER = 10
 P8_FIGURE_WIDTH_MM = 178
 P8_FIGURE_DPI = 600
 P8_FIGURE_MIN_TEXT_PT = 7
+
+# P9 9.1 post hoc, SAP S7.1, S9 and S10 Aim 3: absolute risk differences.
+P9_RD_BOOTSTRAPS = 2000
+P9_RD_CONFIDENCE_LEVEL = 0.95
+
+# P9 9.2 post hoc, SAP S2 and S7.1: public coverage assumptions, not actual endpoints.
+# Start is inclusive and end is exclusive. MC-MED is reported to month precision.
+P9_ED_COVERAGE = {
+    "MC-MED": (
+        (2020, 9, 1), (2022, 9, 1), "September 2020 to September 2022",
+        "Equal-day September anniversaries for approximate two-year coverage",
+        "https://physionet.org/content/mc-med/1.0.1/",
+    ),
+    "MIMIC-IV-ED": (
+        (2011, 1, 1), (2020, 1, 1), "2011 to 2019",
+        "Full documented calendar years assumed",
+        "https://physionet.org/content/mimic-iv-ed/2.2/",
+    ),
+}
