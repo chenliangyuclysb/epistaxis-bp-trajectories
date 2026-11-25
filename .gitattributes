@@ -1,0 +1,2 @@
+# Preserve the exact bytes of the frozen Chinese protocol.
+docs/SAP_v1.0_zh.md -text

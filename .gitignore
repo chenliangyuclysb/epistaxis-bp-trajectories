@@ -1,0 +1,27 @@
+# Credentialed inputs, environments, and generated artifacts
+/.venv/
+/mc-med/
+/mimic-iv-3.1/
+/data_raw/
+/derived/
+/outputs/
+/review/
+/manuscript/
+/prompts/
+AGENTS.md
+.env
+.env.*
+.Rhistory
+.RData
+Rplots.pdf
+__pycache__/
+*.pyc
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.duckdb*
+*.db
+*.ipynb
+*.zip
+*.gz
